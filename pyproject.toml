@@ -6,11 +6,11 @@ authors = ["Rodrigo Garcia <rg_moraes@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-streamlit = "^1.35.0"
-pandas = "^2.2.2"
+python = "^3.12"
+streamlit = "^1.45.0"
+pandas = "^2.2.3"
 
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
