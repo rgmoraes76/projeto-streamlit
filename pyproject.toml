@@ -1,16 +1,18 @@
-[tool.poetry]
-name = "projeto-pratico"
+[project]
+name = "rodrigo"
 version = "0.1.0"
 description = ""
-authors = ["Vinicius Rocha Lima <vinicius@empowerdata.com.br>"]
+authors = [
+    {name = "rodrigo"}
+]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-streamlit = "^1.35.0"
-pandas = "^2.2.2"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit (>=1.45.0,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)"
+]
 
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
